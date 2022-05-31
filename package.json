@@ -1,0 +1,33 @@
+{
+  "name": "chat-app-sockets.io",
+  "version": "1.0.0",
+  "description": "Sockets.io and node.js test chat app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start::dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergiyMatveyev/Chat-app-node.js-socket.io.git"
+  },
+  "keywords": [
+    "Node.js",
+    "mustache",
+    "socket.io"
+  ],
+  "author": "Sergiy Matveyev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergiyMatveyev/Chat-app-node.js-sockets.io/issues"
+  },
+  "homepage": "https://github.com/SergiyMatveyev/Chat-app-node.js-sockets.io#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
